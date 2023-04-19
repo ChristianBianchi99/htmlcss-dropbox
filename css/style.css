@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Open Sans, sans-serif, black;
+    font-size: 13px;
+}
+/* INIZIO STILI HEADER */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+.row-header {
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-content, .right-content {
+    margin: 20px 15px;
+}
+#logo {
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.links-header {
+    display: inline-block;
+}
+.links-header a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0px 15px;
+}
+button {
+    background-color: rgb(0, 97, 255);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
+/* FINE STILI HEADER */
+/* INIZIO STILI MAIN */
+/* FINE STILI MAIN */
+/* INIZIO STILI FOOTER */
+/* FINE STILI FOOTER */
+/* INIZIO STILI LAYOUT */
+.container-large {
+
+}
+.container-small {
+
+}
+.row {
+    width: 100%;
+    display: flex;
+}
+/* FINE STILI LAYOUT */
+/* INIZIO STILI D'UTILITA' */
+/* FINE STILI D'UTILITA' */
