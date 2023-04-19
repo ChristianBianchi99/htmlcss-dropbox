@@ -13,6 +13,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 100;
     background-color: white;
 }
 .row-header {
@@ -34,28 +35,67 @@ header {
     color: inherit;
     margin: 0px 15px;
 }
-button {
-    background-color: rgb(0, 97, 255);
-    color: white;
-    border: none;
-    padding: 5px 10px;
-}
 /* FINE STILI HEADER */
 /* INIZIO STILI MAIN */
+/* JUMBOTRON */
+.jumbo-background {
+    padding-top: 130px;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 35px;
+}
+.jumbo-row {
+    position: relative;
+}
+.jumbo-content {
+    padding-right: 55px;
+}
+.jumbo-button {
+    margin: 20px 0px;
+}
+.jumbo-content i {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-size: 45px;
+}
+.jumbo-img {
+    width: 630px;
+    position: absolute;
+    left: 33%;
+}
 /* FINE STILI MAIN */
 /* INIZIO STILI FOOTER */
 /* FINE STILI FOOTER */
 /* INIZIO STILI LAYOUT */
 .container-large {
-
+    width: 60%;
+    margin: auto;
 }
 .container-small {
-
+    width: 50%;
+    margin: auto;
 }
 .row {
     width: 100%;
     display: flex;
 }
+.col-40 {
+    width: 40%;
+}
+.col-60 {
+    width: 60%;
+}
 /* FINE STILI LAYOUT */
-/* INIZIO STILI D'UTILITA' */
-/* FINE STILI D'UTILITA' */
+/* INIZIO STILI IN COMUNE */
+button {
+    background-color: rgb(0, 97, 255);
+    color: white;
+    border: none;
+    padding: 7px 13px;
+}
+.light-blue {
+    background-color: rgb(180, 208, 231);
+}
+/* FINE STILI IN COMUNE */
