@@ -264,6 +264,38 @@ input {
 }
 /* FINE STILI MAIN */
 /* INIZIO STILI FOOTER */
+.background-footer {
+    background-color: black;
+    color: white;
+    padding: 80px 0px 40px;
+}
+.footer-content h3 {
+    margin-bottom: 20px;
+}
+.footer-content ul {
+    list-style: none;
+}
+.footer-content li {
+    margin-bottom: 10px;
+}
+.background-footer hr {
+    margin: 80px 0px 40px;
+    width: 10%;
+    border-color: rgb(153, 153, 153);
+}
+.lingua {
+    color: rgb(153, 153, 153);
+}
+.lingua select {
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    appearance: none;
+    margin-left: 5px;
+}
+.lingua span {
+    vertical-align: middle;
+}
 /* FINE STILI FOOTER */
 /* INIZIO STILI LAYOUT */
 .container-large {
@@ -278,7 +310,7 @@ input {
     width: 100%;
     display: flex;
 }
-.row-client-3 {
+.row-client-3, .row-footer-1 {
     justify-content: space-between;
 }
 .col-40 {
@@ -304,6 +336,9 @@ input {
     width: 50%;
     height: 50%;
     position: relative;
+}
+.col-20 {
+    width: calc(100% / 5 - 30px);
 }
 /* FINE STILI LAYOUT */
 /* INIZIO STILI IN COMUNE */
