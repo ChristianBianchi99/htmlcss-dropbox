@@ -70,9 +70,6 @@ h1 {
     font-size: 11px;
 }
 /* PRIMA RIGA */
-.row-business-1 {
-    margin-top: 100px;
-}
 .fatturazione {
     margin: 40px 0px;
 }
@@ -153,9 +150,6 @@ input {
     margin-top: 35px;
 }
 /* PARTNER */
-.row-partner {
-    margin-top: 130px;
-}
 .parner-img img {
     width: 100%;
 }
@@ -169,6 +163,20 @@ input {
     border: 1px solid black;
     background-color: white;
     color: black;
+}
+/* FEATURE */
+.row-feature-2 {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.feature-content {
+    margin-top: 50px;
+}
+.feature-content img {
+    width: 100%;
+}
+.feature-content p {
+    margin-top: 20px;
 }
 /* FINE STILI MAIN */
 /* INIZIO STILI FOOTER */
@@ -200,6 +208,9 @@ input {
 }
 /* FINE STILI LAYOUT */
 /* INIZIO STILI IN COMUNE */
+.margin-top {
+    margin-top: 130px;
+}
 button {
     background-color: rgb(0, 97, 255);
     color: white;
@@ -215,6 +226,6 @@ h2 {
     font-size: 32px;
 }
 h3 {
-    font-size: 19px;
+    font-size: 20px;
 }
 /* FINE STILI IN COMUNE */
