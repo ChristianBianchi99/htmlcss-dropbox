@@ -152,6 +152,24 @@ input {
 .business-container-66 p {
     margin-top: 35px;
 }
+/* PARTNER */
+.row-partner {
+    margin-top: 130px;
+}
+.parner-img img {
+    width: 100%;
+}
+.partner-content {
+    padding: 40px;
+}
+.partner-content p {
+    margin: 10px 0px 25px;
+}
+.partner-content button {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
 /* FINE STILI MAIN */
 /* INIZIO STILI FOOTER */
 /* FINE STILI FOOTER */
@@ -188,6 +206,7 @@ button {
     border: none;
     padding: 9px 15px;
     font-size: inherit;
+    font-family: inherit;
 }
 .light-blue {
     background-color: rgb(180, 208, 231);
