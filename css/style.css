@@ -249,6 +249,19 @@ input {
     color: black;
     margin-top: 10px;
 }
+/* QUESTION */
+.question-content h2 {
+    margin-bottom: 50px;
+}
+.question-content hr, .question-content div {
+    margin-top: 30px;
+}
+.questions strong::after {
+    content: "\f107";
+    font: var(--fa-font-solid);
+    float: right;
+    margin-right: 40px;
+}
 /* FINE STILI MAIN */
 /* INIZIO STILI FOOTER */
 /* FINE STILI FOOTER */
