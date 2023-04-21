@@ -35,6 +35,9 @@ header {
     color: inherit;
     margin: 0px 15px;
 }
+.right-content button {
+    padding: 6px 14px;
+}
 /* FINE STILI HEADER */
 /* INIZIO STILI MAIN */
 /* JUMBOTRON */
@@ -61,7 +64,7 @@ h1 {
     font-size: 45px;
 }
 .jumbo-img {
-    width: 630px;
+    width: 70%;
     position: absolute;
     left: 33%;
 }
@@ -73,23 +76,35 @@ h1 {
 .fatturazione {
     margin: 40px 0px;
 }
+.fatturazione label {
+    margin-right: 35px;
+}
 input {
     vertical-align: middle;
+    appearance: none;
+    border: 3.5px solid white;
+    border-radius: 50%;
+    outline: 2px solid rgb(208, 208, 211);
+    height: 15px;
+    width: 15px;
+    margin-right: 2px;
 }
-.fatturazione span {
-    margin-right: 35px;
+input:checked {
+    border: 3.5px solid rgb(0, 97, 255);
+    outline: 2px solid rgb(0, 97, 255);
+    outline-offset: -1px;
 }
 /* SECONDA RIGA */
 .row-business-2 {
     justify-content: space-between;
 }
 .col-business {
-    border: 1px solid black;
+    border: 1px solid rgb(208, 208, 211);
 }
 .tipo-utente {
     padding: 8px;
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(208, 208, 211);
 }
 .business-container {
     padding: 30px 20px;
@@ -100,6 +115,7 @@ input {
 .business-cadenza {
     margin-top: 10px;
     margin-bottom: 40px;
+    color: rgb(102, 102, 102);
 }
 .acquisto-piano ul {
     margin-left: 15px;
@@ -120,6 +136,9 @@ input {
 }
 .business-container li {
     margin-top: 15px;
+}
+.fa-check {
+    color: rgb(0, 97, 255);
 }
 /* TERZA RIGA */
 .row-business-3 {
@@ -192,6 +211,7 @@ input {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(1);
 }
 .client-content-2 {
     padding: 40px;
@@ -200,11 +220,14 @@ input {
 }
 .client-content-2 img {
     width: 50%;
-    /* COLORE LOGHI */
 }
 .client-content-2 hr {
     width: 20%;
     margin: 30px 0px;
+    border-color: rgb(208, 208, 211);
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 .client-content-2 p {
     margin-bottom: 40px;
@@ -349,7 +372,7 @@ button {
     background-color: rgb(0, 97, 255);
     color: white;
     border: none;
-    padding: 9px 15px;
+    padding: 9px 14px;
     font-size: inherit;
     font-family: inherit;
 }
