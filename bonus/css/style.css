@@ -1,0 +1,432 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Open Sans, sans-serif, black;
+    font-size: 13px;
+}
+/* INIZIO STILI HEADER */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: white;
+}
+.row-header {
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-content, .right-content {
+    margin: 20px 15px;
+}
+#logo {
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.links-header {
+    display: inline-block;
+}
+.dropdown {
+    position: relative;
+    display: inline;
+}
+.dropdown:hover {
+    background-color: rgb(245, 245, 245);
+    padding: 6px 14px;
+}
+.link-header, .drop-link a {
+    text-decoration: none;
+    color: inherit;
+}
+.link-header {
+    margin: 0px 15px;
+}
+.dropdown-content {
+    background-color: rgb(245, 245, 245);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    padding: 20px;
+    display: none;
+    width: 100%;
+    font-size: 11px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.drop-link {
+    margin: 15px 0px;
+}
+.right-content button {
+    padding: 6px 14px;
+}
+/* FINE STILI HEADER */
+/* INIZIO STILI MAIN */
+/* JUMBOTRON */
+.jumbo-background {
+    padding-top: 130px;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 35px;
+}
+.jumbo-row-2 {
+    position: relative;
+}
+.jumbo-content {
+    padding-right: 55px;
+}
+.jumbo-button {
+    margin: 20px 0px;
+}
+.jumbo-content i {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-size: 45px;
+    color: black;
+}
+.jumbo-img {
+    width: 70%;
+    position: absolute;
+    left: 33%;
+}
+/* PIANI BUSINESS */
+.business {
+    font-size: 11px;
+}
+/* PRIMA RIGA */
+.fatturazione {
+    margin: 40px 0px;
+}
+.fatturazione label {
+    margin-right: 35px;
+}
+input {
+    vertical-align: middle;
+    appearance: none;
+    border: 3.5px solid white;
+    border-radius: 50%;
+    outline: 2px solid rgb(208, 208, 211);
+    height: 15px;
+    width: 15px;
+    margin-right: 2px;
+}
+input:checked {
+    border: 3.5px solid rgb(0, 97, 255);
+    outline: 2px solid rgb(0, 97, 255);
+    outline-offset: -1px;
+}
+/* SECONDA RIGA */
+.row-business-2 {
+    justify-content: space-between;
+}
+.col-business {
+    border: 1px solid rgb(208, 208, 211);
+}
+.tipo-utente {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid rgb(208, 208, 211);
+}
+.business-container {
+    padding: 30px 20px;
+}
+.business-container h3 {
+    margin-bottom: 15px;
+}
+.business-cadenza {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: rgb(102, 102, 102);
+}
+.acquisto-piano ul {
+    margin-left: 15px;
+    margin-bottom: 35px;
+}
+.link-acquisto {
+    margin: 20px 0px 25px;
+}
+.business-container hr {
+    width: 20%;
+}
+.punti-salienti strong {
+    display: block;
+    margin: 35px 0px 20px;
+}
+.punti-salienti ul {
+    margin-left: 15px;
+}
+.business-container li {
+    margin-top: 15px;
+}
+.fa-check {
+    color: rgb(0, 97, 255);
+}
+/* TERZA RIGA */
+.row-business-3 {
+    margin-top: 40px;
+}
+.sub-row-business {
+    display: flex;
+    justify-content: space-between;
+}
+.business-content-66 {
+    padding: 20px 0px 20px 20px;
+}
+.business-content-33 {
+    padding: 20px;
+}
+.business-content-66 h3 {
+    margin-bottom: 10px;
+}
+.business-content-66 p {
+    margin-top: 35px;
+}
+/* PARTNER */
+.parner-img img {
+    width: 100%;
+}
+.partner-content {
+    padding: 40px;
+}
+.partner-content p {
+    margin: 10px 0px 25px;
+}
+.partner-content button {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+/* FEATURE */
+.row-feature-2 {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.feature-content {
+    margin-top: 50px;
+}
+.feature-content img {
+    width: 100%;
+}
+.feature-content p {
+    margin-top: 20px;
+}
+/* OUR CLIENT */
+/* PRIMA RIGA */
+.client-content-1 h2 {
+    margin-bottom: 50px;
+}
+/* SECONDA RIGA */
+.row-client-2 {
+    margin-top: 100px;
+}
+.sub-row-client {
+    flex-wrap: wrap;
+    height: 100%;
+}
+.client-logos {
+    height: 100%;
+}
+.client-logos img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+.client-content-2 {
+    padding: 40px;
+    background-color: rgb(245, 245, 245);
+    height: 100%;
+}
+.client-content-2 img {
+    width: 50%;
+}
+.client-content-2 hr {
+    width: 20%;
+    margin: 30px 0px;
+    border-color: rgb(208, 208, 211);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.client-content-2 p {
+    margin-bottom: 40px;
+}
+.color-designit {
+    background-color: rgb(162, 211, 155);
+    border: 15px solid rgb(209, 233, 205);
+}
+.color-asu {
+    background-color: rgb(96, 8, 43);
+}
+.color-uf {
+    background-color: rgb(0, 147, 206);
+}
+.color-topps {
+    background-color: rgb(255, 28, 28);
+}
+.color-bicycle {
+    background-color: rgb(213, 0, 31);
+}
+.color-hearst {
+    background-color: rgb(180, 208, 231);
+}
+.color-lonely {
+    background-color: rgb(13, 36, 129);
+}
+.color-clear {
+    background-color: rgb(255, 216, 48);
+}
+/* TERZA RIGA */
+.client-background {
+    padding: 100px 0px;
+}
+.client-content-3 {
+    padding-right: 30px;
+}
+.client-content-3 h2 {
+    color: rgb(96, 8, 43);;
+}
+.client-button {
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+}
+/* QUESTION */
+.question-content h2 {
+    margin-bottom: 50px;
+}
+.question-content hr, .question-content div {
+    margin-top: 30px;
+}
+.questions strong::after {
+    content: "\f107";
+    font: var(--fa-font-solid);
+    float: right;
+    margin-right: 40px;
+}
+.questions p {
+    margin-top: 10px;
+    margin-right: 50px;
+    display: none;
+}
+.questions:hover .accordion {
+    display: block;
+}
+/* FINE STILI MAIN */
+/* INIZIO STILI FOOTER */
+.background-footer {
+    background-color: black;
+    color: white;
+    padding: 80px 0px 40px;
+}
+.footer-content h3 {
+    margin-bottom: 20px;
+}
+.footer-content ul {
+    list-style: none;
+}
+.footer-content li {
+    margin-bottom: 10px;
+}
+.background-footer hr {
+    margin: 80px 0px 40px;
+    width: 10%;
+    border-color: rgb(153, 153, 153);
+}
+.lingua {
+    color: rgb(153, 153, 153);
+}
+.lingua select {
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    appearance: none;
+    margin-left: 5px;
+}
+.lingua span {
+    vertical-align: middle;
+}
+/* FINE STILI FOOTER */
+/* INIZIO STILI LAYOUT */
+.container-large {
+    width: 60%;
+    margin: auto;
+}
+.container-small {
+    width: 50%;
+    margin: auto;
+}
+.row {
+    width: 100%;
+    display: flex;
+}
+.row-client-3, .row-footer-1 {
+    justify-content: space-between;
+}
+.col-40 {
+    width: 40%;
+}
+.col-60 {
+    width: 60%;
+}
+.col-100 {
+    width: 100%;
+}
+.col-33 {
+    width: calc(100% / 3 - 20px);
+}
+.col-66 {
+    width: calc(100% - 100% / 3 - 10px);
+}
+.col-33-full {
+    width: calc(100vw / 3);
+    height: calc(100vw / 3 - 0.5vw);
+}
+.col-50-full {
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+.col-20 {
+    width: calc(100% / 5 - 30px);
+}
+/* FINE STILI LAYOUT */
+/* INIZIO STILI IN COMUNE */
+.margin-top {
+    margin-top: 130px;
+}
+button {
+    background-color: rgb(0, 97, 255);
+    color: white;
+    border: none;
+    padding: 9px 14px;
+    font-size: inherit;
+    font-family: inherit;
+}
+.business-button, .client-button {
+    width: 100%;
+}
+.light-blue {
+    background-color: rgb(180, 208, 231);
+}
+h2 {
+    font-size: 32px;
+}
+h3 {
+    font-size: 20px;
+}
+.link-acquisto a, .link-client {
+    color: blue;
+}
+/* FINE STILI IN COMUNE */
